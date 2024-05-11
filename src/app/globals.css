@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero_section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(../../public/tile-yellow.png), #ffd380;
+    background-blend-mode: overlay, normal;
+    background-repeat: repeat;
+    background-position: center;
+  
+}
+
+
+.authentic__taste {
+    z-index: 4;
+    overflow: visible;
+    height: auto;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    /* background: url(/public/fullbackgroundimage.png),#ffd380 ; */
+    background-image: url(../../public/tile-yellow.png), #ffd380;
+    background-blend-mode: overlay, normal;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
+.aab-goes-digital {
+    background: url(/public/tile-blue.png), #00378c;
+    background-blend-mode: overlay, normal;
+    background-repeat: repeat;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
